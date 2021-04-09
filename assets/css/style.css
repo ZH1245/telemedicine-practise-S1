@@ -1,0 +1,83 @@
+#header_items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#header_items a {
+  color: white;
+}
+#header_items a:hover {
+  color: orange;
+}
+#header_items li {
+  display: inline-block;
+  padding: 5px;
+}
+
+header {
+  overflow: hidden;
+  color: white;
+  background-color: #007c41;
+}
+.left {
+  float: left;
+  align-items: center;
+}
+.right {
+  float: right;
+}
+.nav-item a {
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+}
+.nav-item a:hover {
+  background-color: wheat;
+  transition: 0.5s;
+}
+#body {
+  /* background-color: #ebe7db; */
+}
+#heading h3 {
+  background-color: #007c41;
+  color: white;
+  text-align: center;
+}
+.intro {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sub-headings {
+  font-size: 20px;
+}
+.flyer-image {
+  text-align: center;
+}
+.hr {
+  border-bottom: 2px solid #e9e9e9;
+}
+.hr-red1 {
+  position: sticky;
+  top: 30;
+  color: red;
+  border-bottom: 2px solid red;
+  float: left;
+  width: 114px;
+}
+.hr-red2 {
+  position: sticky;
+  top: 30;
+  float: left;
+
+  color: red;
+  border-bottom: 2px solid red;
+  width: 320px;
+}
+footer {
+  background-color: seagreen;
+  color: white;
+}
+#fb-logo {
+  color: white;
+  display: float;
+}
